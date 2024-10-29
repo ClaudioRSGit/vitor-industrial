@@ -21,7 +21,7 @@
       title="Tomada de decisão"
       description="A tomada de decisão assume um papel central..."
       pdfName="Apresentação Tomada decisão na manuteção industrial.pdf"
-      imageUrl="/vitor-industrial/src/assets/tomadadecisao.png"
+      imageUrl="../src/assets/tomadadecisao.png"
       imagePosition="left"
     />
     <Card

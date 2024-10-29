@@ -7,7 +7,7 @@
         <img class="object-cover w-full h-full rounded-2xl" :src="imageUrl" />
         <!-- <img class="object-cover w-full h-full" :src="imageUrl" /> -->
       </div>
-      <div :class="['px-6', 'space-y-5', isMobile ? 'text-justify' : 'px-8 md:px-20 md:w-1/2']">
+      <div :class="['px-6', 'space-y-5', isMobile ? 'text-center' : 'px-8 md:px-20 md:w-1/2']">
         <h4 class="project-title">{{ title }}</h4>
         <p class="font-work_sans pr-12">{{ description }}</p>
         <button
@@ -21,7 +21,7 @@
 
     <!-- Card com imagem à direita em desktop e redondo no mobile -->
     <div class="card flex flex-col md:flex-row" v-if="imagePosition == 'right'">
-      <div :class="['px-6', 'space-y-5', isMobile ? 'text-justify' : 'px-8 md:px-20 md:w-1/2']">
+      <div :class="['px-6', 'space-y-5', isMobile ? 'text-center' : 'px-8 md:px-20 md:w-1/2']">
         <h4 class="project-title">{{ title }}</h4>
         <p class="font-work_sans pr-12">{{ description }}</p>
         <button

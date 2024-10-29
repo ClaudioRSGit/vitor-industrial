@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row items-center pb-20 px-5">
+  <div class="flex flex-col md:flex-row items-center pb-20 md:px-20 px-8">
     <!-- Texto sobre -->
     <div class="md:w-7/12 w-full pb-8 md:pb-20">
       <h1

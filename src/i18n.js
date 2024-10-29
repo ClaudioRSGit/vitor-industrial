@@ -35,7 +35,7 @@ const messages = {
   pt: {
     greeting: 'Olá! Sou o Vitor Silva',
     about: 'Sobre mim',
-    about_text: "Eu sou o Vítor Silva, responsável de produção com sólida experiência em gestão de manutenção e produção no setor industrial.Ao longo da minha carreira, desenvolvi competências avançadas em manutenção preventiva e corretiva, gestão de processos e projetos, sempre com foco na melhoria contínua e na eficiência operacional.",
+    about_text: "Eu sou o Vítor Silva, responsável de produção com sólida experiência em gestão de manutenção e produção no setor industrial. Ao longo da minha carreira, desenvolvi competências avançadas em manutenção preventiva e corretiva, gestão de processos e projetos, sempre com foco na melhoria contínua e na eficiência operacional.",
     contact: 'Contate-me',
     career_text: "Ao longo do meu percurso, tive a oportunidade de fazer parte de projetos interessantes que me permitiram crescer tanto pessoal como profissionalmente.",
     Services: 'Serviços',

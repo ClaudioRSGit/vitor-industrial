@@ -57,7 +57,7 @@
 
 .heading3 {
   color: var(--font-color) !important; 
-  @apply md:text-5xl text-xl font-bold font-work_sans tracking-wide;
+  @apply md:text-5xl text-3xl font-bold font-work_sans tracking-wide;
 }
 .heading4 {
   color: var(--maincolor) !important; 

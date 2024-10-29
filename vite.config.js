@@ -3,6 +3,6 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vitor-industrial/',
-  plugins: [vue()]
+  plugins: [vue()],
+  base: '/vitor-industrial/'
 })
