@@ -9,17 +9,17 @@
     <Card2 
       :title="$t('services.training')" 
       :description="$t('services.training_text')" 
-      imageUrl="../assets/trainingIco.png" 
+      :imageUrl="../assets/trainingIco.png" 
     />
     <Card2 
       :title="$t('services.audit')" 
       :description="$t('services.audit_text')" 
-      imageUrl="../assets/auditIco.png" 
+      :imageUrl="../assets/auditIco.png" 
     />
     <Card2 
       :title="$t('services.development')" 
       :description="$t('services.development_text')" 
-      imageUrl="/src/assets/assets/learningIco.png" 
+      :imageUrl="/src/assets/assets/learningIco.png" 
     />
   </div>
 </template>
