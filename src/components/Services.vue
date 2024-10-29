@@ -14,7 +14,7 @@
     <Card2 
       :title="$t('services.audit')" 
       :description="$t('services.audit_text')" 
-      imageUrl="/src/assets/auditIco.png" 
+      imageUrl="/vitor-industrial/src/assets/auditIco.png"
     />
     <Card2 
       :title="$t('services.development')" 
