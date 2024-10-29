@@ -22,14 +22,14 @@
       title="Tomada de decisão"
       description="A tomada de decisão assume um papel central..."
       pdfName="Apresentação Tomada decisão na manuteção industrial.pdf"
-      imageUrl="/src/assets/tomadadecisao.png"
+      imageUrl="../assets/tomadadecisao.png"
       imagePosition="left"
     />
     <Card
         title="Gestão da Manutenção Industrial"
         description="A manutenção industrial consiste na manutenção corretiva..."
         pdfName="00_Gestão da Manutenção Industrial.pdf"
-        imageUrl="/src/assets/gestaoManutencao.png"
+        imageUrl="../assets/gestaoManutencao.png"
         imagePosition="right"
     />
     <transition name="fade">
@@ -38,7 +38,7 @@
           title="Tomada de decisão"
           description="A tomada de decisão assume um papel central..."
           pdfName="Apresentação Tomada decisão na manuteção industrial.pdf"
-          imageUrl="/src/assets/tomadadecisao.png"
+          imageUrl="../assets/tomadadecisao.png"
           imagePosition="left"
         />
 
@@ -46,7 +46,7 @@
             title="Gestão da Manutenção Industrial"
             description="A manutenção industrial consiste na manutenção corretiva..."
             pdfName="00_Gestão da Manutenção Industrial.pdf"
-            imageUrl="/src/assets/gestaoManutencao.png"
+            imageUrl="../assets/gestaoManutencao.png"
             imagePosition="right"
         />
       </div>
