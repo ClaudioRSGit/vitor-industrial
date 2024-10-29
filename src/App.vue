@@ -2,7 +2,6 @@
   <!-- 
     TO-DO
     - Testimonials
-    - Versao mobile
     -->
     <NavBar />
     <div class="banner-1">
@@ -22,14 +21,14 @@
       title="Tomada de decisão"
       description="A tomada de decisão assume um papel central..."
       pdfName="Apresentação Tomada decisão na manuteção industrial.pdf"
-      imageUrl="../assets/tomadadecisao.png"
+      imageUrl="/src/assets/tomadadecisao.png"
       imagePosition="left"
     />
     <Card
         title="Gestão da Manutenção Industrial"
         description="A manutenção industrial consiste na manutenção corretiva..."
         pdfName="00_Gestão da Manutenção Industrial.pdf"
-        imageUrl="../assets/gestaoManutencao.png"
+        imageUrl="/src/assets/gestaoManutencao.png"
         imagePosition="right"
     />
     <transition name="fade">
@@ -38,7 +37,7 @@
           title="Tomada de decisão"
           description="A tomada de decisão assume um papel central..."
           pdfName="Apresentação Tomada decisão na manuteção industrial.pdf"
-          imageUrl="../assets/tomadadecisao.png"
+          imageUrl="/src/assets/tomadadecisao.png"
           imagePosition="left"
         />
 
@@ -46,7 +45,7 @@
             title="Gestão da Manutenção Industrial"
             description="A manutenção industrial consiste na manutenção corretiva..."
             pdfName="00_Gestão da Manutenção Industrial.pdf"
-            imageUrl="../assets/gestaoManutencao.png"
+            imageUrl="/src/assets/gestaoManutencao.png"
             imagePosition="right"
         />
       </div>
