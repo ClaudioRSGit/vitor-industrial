@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --maincolor: #1a3452;
+  --secondary: #767D7F;
+  --font-color: #ffd1b3;
+  --grey-color: #F5F5F5;
+}
+
+/* .bg-test {
+  @apply px-5 pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  background-image: url('/src/assets/industry_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+ .border-font-color{
+  border: 8px solid var(--font-color);
+ }
+.banner-1 {
+  @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  background-color: var(--maincolor);
+}
+.about-text {
+  @apply text-2xl md:text-4xl font-work_sans font-bold;
+  color: var(--grey-color);
+}
+.banner-2 {
+  @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  background-color: var(--font-color);
+}
+.bg-yellowis {
+  background-color: var(--maincolor);
+}
+.about {
+  background: linear-gradient(to bottom, var(--maincolor) 30%, var(--font-color) 70%);
+}
+.hello-button {
+  background-color: var(--maincolor);
+}
+.menu-button {
+  @apply text-lg font-bold font-work_sans;
+  color: var(--font-color) !important;
+}
+.menu-button:hover {
+  color: var(--grey-color) !important;
+  font-weight: normal;
+}
+
+.submit-button {
+  @apply border-gray-800 border-gray-800 3xl:text-xl 2xl:text-xl lg:text-xl md:text-xl text-xs py-2 px-4  lg:py-4 lg:px-8 rounded-2xl font-work_sans font-semibold;
+}
+
+.heading3 {
+  color: var(--font-color) !important; 
+  @apply md:text-5xl text-xl font-bold font-work_sans tracking-wide;
+}
+.heading4 {
+  color: var(--maincolor) !important; 
+  @apply md:text-5xl text-xl font-bold font-work_sans tracking-wide;
+}
+.heading5 {
+  color: var(--font-color) !important; 
+  @apply text-xl font-bold font-work_sans tracking-wide;
+}
+.subHeading {
+  color: var(--grey-color) !important; 
+}
+.project-title {
+  @apply text-gray-700 text-3xl md:text-4xl font-work_sans tracking-wide font-bold;
+}
+
+.card {
+  @apply bg-white rounded-2xl md:flex place-items-center my-10 shadow-md;
+}
+
+.card-image {
+  @apply md:w-1/2 md:rounded-r-2xl md:rounded-l-none rounded-b-2xl flex;
+}
+
+@layer utilities {
+  .h-850 {
+    height: 900px;
+  }
+  .h-screen {
+    height: 90vh;
+  }
+}
+.imgShadow {
+  filter: drop-shadow(2px 2px 5px var(--font-color));
+}
+.readMore {
+  color: var(--maincolor);
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--font-color);
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+/* .grad::before,
+.grad::after {
+  position: absolute;
+  content: '';
+  border-radius: 50%;
+  background: linear-gradient(45deg, var(--font-color), var(--font-color));
+  opacity: 0.1;
+  z-index: 1000;
+} */
+
+/* .grad::before {
+  height: 1300px;
+  width: 1300px;
+  left: -20%;
+  top: 20%;
+  animation: object1 6s linear infinite;
+}
+
+.grad::after {
+  height: 1100px;
+  width: 1100px;
+  left: 80%;
+  top: -80%;
+  animation: object2 6s linear infinite;
+} */
